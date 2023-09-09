@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ clients Worldwide</small>
+              <small>10+ clients Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -38,13 +38,14 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I'm a dedicated full-stack web developer with a passion for
+            continuous growth. Proficient in HTML, CSS, JavaScript, React,
+            Node.js, and Express, I excel in creating efficient and clean code.
+            I thrive in agile environments, collaborating effectively with
+            teams, and I'm eager to take on new challenges in web development.
+            <br />
+            <br />
+            Let's turn your ideas into your ideal website.
           </p>
 
           <a href="#contact" className="btn btn-primary">
