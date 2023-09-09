@@ -1,12 +1,10 @@
 header {
-  height: 100vh;
   padding-top: 3rem;
   overflow: hidden;
 }
 
 .header__container {
   text-align: center;
-  height: 100%;
   position: relative;
 }
 
@@ -43,18 +41,19 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   border: 0.4rem solid var(--color-bg-variant);
-  width: 22rem;
-  height: 22rem;
   aspect-ratio: 1/1;
+  max-width: 370px;
   overflow: hidden;
   border-radius: 50%;
   margin: 5rem auto 1rem;
-
   padding: 0;
 }
 
 .me img {
-  translate: 5px -35px;
+  width: 100%;
+  max-width: 370px;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* ================== SCROLL DOWN ================== */
@@ -71,18 +70,12 @@ header {
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
+
 }
 
 /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================= */
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 60vh;
-  }
-
   .header__socials,
   .scroll__down {
     display: none;
