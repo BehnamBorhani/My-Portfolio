@@ -87,6 +87,10 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+
+  .about__me-image {
+    transform: none;
+  }
 }
 
 /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================= */
@@ -108,5 +112,9 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+
+  .about__me-image {
+    transform: none;
   }
 }
