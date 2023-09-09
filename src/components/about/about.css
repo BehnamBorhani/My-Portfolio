@@ -8,14 +8,10 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+  background: var(--color-bg-variant);
   display: grid;
   place-items: center;
+  opacity: 0.7;
 }
 
 .about__me-image {
@@ -27,6 +23,11 @@
 
 .about__me-image:hover {
   transform: rotate(0deg);
+}
+
+.about__me-image img {
+  height: 26rem;
+  width: 26rem;
 }
 
 .about__cards {

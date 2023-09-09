@@ -56,6 +56,12 @@ textarea {
   color: var(--color-white);
 }
 
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 
 @media screen and (max-width: 1024px) {

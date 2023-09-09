@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 225, 0.4);
+  --color-bg: #053b06;
+  --color-bg-variant: #0b5d1e;
+  --color-primary: #139a43;
+  --color-primary-variant: #0dab76;
   --color-white: #fff;
   --color-light: rgba(225, 225, 225, 0.6);
 
@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: rgb(27, 27, 27);
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
