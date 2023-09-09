@@ -3,6 +3,7 @@ import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import { BsTelegram } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,6 +36,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
+        <a href="https://github.com/ErfanRez" target="_blank" rel="noreferrer">
+          <FaGithub />
+        </a>
         <a
           href="https://www.linkedin.com/in/erfanrz/"
           target="_blank"
