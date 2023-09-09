@@ -25,11 +25,11 @@
 }
 
 .experience__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 .experience__details {
+  width: 100%;
   display: flex;
   gap: 1rem;
 }
