@@ -1,54 +1,38 @@
 import React from "react";
 import "./portfolio.css";
-import img1 from "../../assets/portfolio1.jpg";
-import img2 from "../../assets/portfolio2.jpg";
-import img3 from "../../assets/portfolio3.jpg";
-import img4 from "../../assets/portfolio4.jpg";
-import img5 from "../../assets/portfolio5.png";
-import img6 from "../../assets/portfolio6.jpg";
+import img1 from "../../assets/youtube.png";
+import img2 from "../../assets/sushi.png";
+import img3 from "../../assets/gym.png";
+import img4 from "../../assets/carhub.png";
 
 const data = [
   {
     id: 1,
     image: img1,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Youtube Dark Clone",
+    github: "https://github.com/ErfanRez/Youtube-Clone",
+    demo: "https://erfanrz-youtube-clone.vercel.app/",
   },
   {
     id: 2,
     image: img2,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Responsive Sushi Restaurant Website",
+    github: "https://github.com/ErfanRez/Sushi-Restaurant",
+    demo: "https://sushi4you.netlify.app/",
   },
   {
     id: 3,
     image: img3,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Your Gym Couch Website",
+    github: "https://github.com/ErfanRez/gyrm-temp",
+    demo: "https://my-gym-three.vercel.app/",
   },
   {
     id: 4,
     image: img4,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 5,
-    image: img5,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 6,
-    image: img6,
-    title: "This is a portfolio title",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Modern Car Rental Website",
+    github: "https://github.com/ErfanRez/carshow-temp",
+    demo: "https://carshow-psi.vercel.app/",
   },
 ];
 
