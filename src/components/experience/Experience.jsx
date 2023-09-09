@@ -107,6 +107,11 @@ const Experience = () => {
               <h4>Microsoft SQL Server</h4>
               <small className="text-light">Experienced</small>
             </div>
+            <div className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <h4>REST API</h4>
+              <small className="text-light">Experienced</small>
+            </div>
           </div>
         </div>
       </div>
